@@ -6,32 +6,41 @@
     </head>
     <body>
         <h2>Welcome to the FSY registrations!</h2>
-        <img src="https://aaroncalahorra-computerlab.notion.site/image/attachment%3A1e4e3ffc-aecc-4524-aeb4-9df0fefe6cf5%3Aimage.png?table=block&id=3175b127-bb52-8047-b166-e0a4ec3ba135&spaceId=c4b8832f-7e93-4972-ba52-2bd9f7b273cf&width=1060&userId=&cache=v2">
+        <img src="https://aaroncalahorra-computerlab.notion.site/image/attachment%3A1e4e3ffc-aecc-4524-aeb4-9df0fefe6cf5%3Aimage.png?table=block&id=3175b127-bb52-8047-b166-e0a4ec3ba135&spaceId=c4b8832f-7e93-4972-ba52-2bd9f7b273cf&width=1060&userId=&cache=v2" height="300">
         <p><i>Fill in all the forms</i></p>
+        <p>For more info, visit the <a href="https://www.churchofjesuschrist.org/youth/childrenandyouth/fsy/?lang=eng" target="blank">Official Church Website</a></p>
         <form>
             <label for="fname">First name: </label>
             <input type="text" name="fname" required>
             <br>
-            <label for=lname">Last name: </label>
+            <label for="lname">Last name: </label>
             <input type="text" name="lname" required>
             <br>
+            <label for="age">Age: </label>
+            <input type="number" name="age" required>
+            <br>
             <label for="email">Email: </label>
-            <input type="email" name="email" required>
+            <input type="email" name="email" placeholder="example@gmail.com" required>
             <br>
-            <label for="date">Dates: </label>
-            <br><input type="radio" name="date" value="jul611"><span>July 6-11</span><br>
-            <input type="radio" name="date" value="jul1318"><span>July 13-18</span><br>
-            <input type="radio" name="date" value="jul2025"><span>July 20-25</span>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="012 345 6789" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required>
             <br>
-            <label for="roommate">Do you want to room with someone? </label>
-            <input type="text" name="roommate">
+            <label for="date">Dates: </label><br>
+            <input type="radio" name="date" value="jul611" required><span>July 6-11</span><br>
+            <input type="radio" name="date" value="jul1318" required><span>July 13-18</span><br>
+            <input type="radio" name="date" value="jul2025" required><span>July 20-25</span>
+            <br>
+            <label for="roommate">Would you want to room with someone? </label><br>
+            <input type="radio" name="roommate" value="yes"><span>Yes</span><br>
+            <input type="radio" name="roommate" value="no"><span>No</span>
             <br>
             <label for="rmname">If so, what is his/her name? </label>
             <input type="text" name="rmname">
             <br>
+            <input type="submit" value="SUBMIT">
         </form>
     </body>
 </html
     <form>
-        <input type="submit" value="Login!">
+
     </form>
