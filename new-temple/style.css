@@ -1,0 +1,22 @@
+/* Element Selector */
+h1 {
+    text-transform:uppercase;
+    color:saddlebrown;
+}
+
+/*ID Selector */
+#status {
+    font-family:sans-serif;
+}
+
+img {
+    height:400px;
+}
+
+/*Class Selector */
+.gray-box {
+    background-color:whitesmoke;
+    border-radius:1rem;
+    padding:1rem;
+    width:600px;
+}
