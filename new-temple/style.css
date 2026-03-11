@@ -32,7 +32,7 @@ p {
 
 .subtitle {
     text-transform:uppercase;
-    color:saddlebrown;
+    color:rgb(56, 34, 6);
     font-size:1.1rem;
     font-weight:bold;
 }
@@ -41,3 +41,29 @@ p {
     color:darkgrey;
     font-size:0.8rem;
 }
+
+/* Group Selector */
+h1, .subtitle {
+    font-family:serif;
+    color:rgb(56, 34, 6)
+}
+
+/* Pseudo Class Selectors */
+a {
+    text-decoration:none;
+    color:rgb(163, 157, 111);
+}
+a:hover {
+    text-decoration: underline;
+    color:rgb(181, 133, 28);
+}
+.gray-box:hover {
+    color:red;
+}
+
+/* Selecting Father Elements */
+main {
+    width:600px;
+    margin:left;
+}
+
