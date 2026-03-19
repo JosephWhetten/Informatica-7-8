@@ -1,12 +1,54 @@
+#lds {
+    font-size:0.8rem;
+    text-align:center;
+    height: 80px;
+    width: 100px;
+}
+
+.headertop {
+    align-items:center;
+    display:flex;
+    gap:3rem;
+    border-bottom:1px solid lightgray;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.nav2 {
+    display:flex;
+    gap:1rem;
+    align-items:center;
+}
+
+.nav2left {
+    display:flex;
+    gap:1rem;
+    justify-content:flex-end;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-bottom:1px solid gray;
+}
+
 nav {
-    text-align:right;
+    display:flex;
+    gap:1rem;
 }
 
 article {
     text-align:center;
-    span {text-align:left;}
 }
 
 footer {
     text-align:center;
+}
+
+a {
+    text-decoration:none;
+    color:black;
 }
