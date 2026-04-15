@@ -1,5 +1,12 @@
 body {
     height:4000px;
+    margin:0px;
+}
+
+#hero {
+    width:100%;
+    height:650px;
+    object-fit:cover;
 }
 
 header {
@@ -27,6 +34,7 @@ main {
     border-radius: 1rem;
     padding: 1rem;
     width:500px;
+    margin-bottom:30px;
 }
 
 .subtitle{
@@ -49,7 +57,7 @@ a:hover {
     color: red;
 }
 
-.padding {
+header {
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -61,14 +69,16 @@ a:hover {
     font-size: 20px;
 }
 
-.div {
+.header {
     display: flex;
     justify-content: space-between;
 }
 
 footer {
     color:lightgray;
+    background-color:white;
     margin:5px;
+    margin-bottom:0px;
     padding:10px;
     border-top:1px solid whitesmoke;
     display:flex;
