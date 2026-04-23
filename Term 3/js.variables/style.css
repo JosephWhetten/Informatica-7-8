@@ -7,6 +7,10 @@ body {
 
 button {
     height:30px;
-    background-color:lavender;
-    border:1px solid light-violet;
+    background-color:violet;
+    border:2px solid purple;
+}
+
+button:hover {
+    background-color:orchid;
 }
