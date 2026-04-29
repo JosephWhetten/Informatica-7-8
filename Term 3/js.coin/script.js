@@ -1,4 +1,4 @@
-function coinflip() {
+function coinflip(choice) {
     num = Math.floor(Math.random() * 2);
     console.log(num);
 
@@ -11,6 +11,7 @@ function coinflip() {
 
         para.appendChild(node);
         document.querySelector("body").appendChild(para);
+
     }
     else {
         document.querySelector("h2").innerHTML = "Tails";
