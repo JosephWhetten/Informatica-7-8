@@ -43,3 +43,7 @@ function play(item) {
     }
 
 }
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     document.querySelector("#rock").onClick = play('rock');
+// })
