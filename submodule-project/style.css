@@ -12,13 +12,15 @@ body {
 
 .herosection {
     position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 h1 {
     position:absolute;
-    top:40%;
-    left:42%;
     color:white;
+    font-size:3rem;
 }
 
 header {
