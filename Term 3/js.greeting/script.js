@@ -27,9 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {          // Waits unt
     else if (day == 6) {document.querySelector("#day").innerHTML = "Today is Saturday"}
 
     let friday = document.querySelector("#friday")
-    if (1 < day < 5) {friday.innerHTML = "Not Friday, yet!"}
+    if (day == 6 || day == 0) {friday.innerHTML = "Just enjoy your weekend 🙌"}
     else if (day == 5) {friday.innerHTML = "Finally Fridaaaaaay! 🕺"}
-    else {friday.innerHTML = "Just enjoy your weekend 🙌"}
+    else {friday.innerHTML = "Not Friday, yet!"}
 
 
     return false;   // Prevents website from reloading

@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const oof = new Audio("sounds/steveoof.mp3");
     const clap = new Audio("sounds/clap.wav");
     const hihat = new Audio("sounds/hihat.wav");
+    const openhat = new Audio("sounds/openhat.wav");
 
     const kickDiv = document.querySelector("#kick");
     const snareDiv = document.querySelector("#snare");
@@ -14,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const oofDiv = document.querySelector("#oof");
     const clapDiv = document.querySelector("#clap");
     const hihatDiv = document.querySelector("#hihat");
+    const openhatDiv = document.querySelector("#openhat");
 
 
     window.addEventListener("keydown", function(event) {
@@ -52,6 +54,11 @@ document.addEventListener("DOMContentLoaded", function(){
             hihat.play();
             hihatDiv.classList.add("active");
         }
+        if (event.key == "h") {
+            openhat.currentTime = 0;
+            openhat.play()
+            openhatDiv.classList.add("active");
+        }
     })
 
     window.addEventListener("keyup", function (event) {
@@ -75,6 +82,9 @@ document.addEventListener("DOMContentLoaded", function(){
         }
         if (event.key == "g") {
             hihatDiv.classList.remove("active");
+        }
+        if (event.key =="h") {
+            openhatDiv.classList.remove("active");
         }
     })
     return false;
