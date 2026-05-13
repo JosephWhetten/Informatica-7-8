@@ -1,0 +1,46 @@
+body {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+h1 {
+    font-size:3rem;
+}
+
+.timer {
+    background-color:lightblue;
+    border:0.5px solid #8dcce1;
+    height:50px;
+    border-radius:20px;
+    width:100px;
+}
+
+.timer:hover {
+    background-color:#8dcce1;
+}
+
+#start {
+    background-color:red;
+    color:white;
+    border:0.5px solid darkred;
+    height:30px;
+    border-radius:10px;
+}
+
+#start:hover {
+    cursor:pointer;
+}
+
+.buttons {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:50px;
+}
+
+.timers {
+    display:flex;
+    gap:5rem;
+}

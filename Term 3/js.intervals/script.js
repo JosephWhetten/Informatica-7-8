@@ -4,11 +4,12 @@ const alarm = new Audio("bruh.mp3");
 function time() {
     if (timer > 0) {
         timer--;
-        if (timer > 9) {
-            document.querySelector("h1").innerHTML = "00:" + timer;
+
+        if (timer%60 > 9) {
+            document.querySelector("h1").innerHTML = "0"+ Math.floor(timer/60) +":" + timer%60;
         }
         else {
-            document.querySelector("h1").innerHTML = "00:0" + timer;
+            document.querySelector("h1").innerHTML = "0"+ Math.floor(timer/60) +":0" + timer%60;
         }
 
     }
